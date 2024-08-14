@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/webtechsolutions-portfolio.github.io/template1/static/css/main.e8848e64.css",
+    "main.js": "/webtechsolutions-portfolio.github.io/template1/static/js/main.d8ba90ac.js",
+    "static/js/453.b9fb6150.chunk.js": "/webtechsolutions-portfolio.github.io/template1/static/js/453.b9fb6150.chunk.js",
+    "static/media/logo.png": "/webtechsolutions-portfolio.github.io/template1/static/media/logo.19a4adc9f06f99271206.png",
+    "index.html": "/webtechsolutions-portfolio.github.io/template1/index.html",
+    "main.e8848e64.css.map": "/webtechsolutions-portfolio.github.io/template1/static/css/main.e8848e64.css.map",
+    "main.d8ba90ac.js.map": "/webtechsolutions-portfolio.github.io/template1/static/js/main.d8ba90ac.js.map",
+    "453.b9fb6150.chunk.js.map": "/webtechsolutions-portfolio.github.io/template1/static/js/453.b9fb6150.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8848e64.css",
+    "static/js/main.d8ba90ac.js"
+  ]
+}
