@@ -1,4 +1,4 @@
-@media screen and (max-width: 2559px) {
+@media screen and (max-width: 2300px) {
   .header__container {
     display: flex;
     flex-direction: row;
@@ -107,8 +107,67 @@
     color: #7dffaf;
     margin: 5px;
   }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+  }
+
+  .contact__headers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    user-select: none;
+  }
+
+  .contact__container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 22%;
+    flex: 1;
+    min-width: 150px;
+    text-shadow: -2px -2px 10px rgb(136, 136, 136),
+      2px -2px 10px rgb(78, 78, 78);
+    margin: 0;
+    height: 100%;
+  }
+  .contact__container h2:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 22%;
+    flex: 1;
+    min-width: 150px;
+    text-shadow: -2px -2px 10px #007bff, 2px -2px 10px rgb(78, 78, 78);
+    margin: 0;
+    height: 100%;
+  }
+  .contact__fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2301px) {
   .header__container {
     display: flex;
     flex-direction: row;
@@ -216,5 +275,136 @@
     font-size: 1.5rem;
     color: #7dffaf;
     margin: 5px;
+  }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f9f9f9;
+  }
+  .contact__container h1 {
+    font-size: 4rem;
+    margin: 20px 0px;
+  }
+  .contact__container h2 {
+    font-size: 1.8rem;
+    margin: 20px 0px;
+  }
+  .contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .contact__headers {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+    user-select: none;
+  }
+  .contact__header--selected {
+    text-decoration: underline;
+    font-weight: bold; /* Opcjonalnie dodaj pogrubienie */
+  }
+  .contact__container h3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+  }
+  .contact__headers h3:hover {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+  }
+  .contact__fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .contact__container form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+  }
+  .contact__container input {
+    width: 43%;
+    height: 100px;
+    margin-bottom: 20px;
+    color: #f9f9f9;
+    background-color: #0d1b16;
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 5%;
+  }
+  .contact__container input::placeholder {
+    height: 100px;
+    color: #7dffaf;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .contact__container textarea {
+    width: 100%;
+    resize: none;
+    background-color: #0d1b16;
+    border: none;
+    height: 250px;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: #f9f9f9;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .contact__container textarea::placeholder {
+    color: #7dffaf;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .contact__container button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    background-color: #f9f9f9;
+    padding: 0.8rem 1.9rem;
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    border: none;
+    margin: 2%;
+  }
+  .contact__container button:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: #00f55a;
+    padding: 0.8rem 1.9rem;
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    border: none;
+  }
+  .contact__button__container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
   }
 }
