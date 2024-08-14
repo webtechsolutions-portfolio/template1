@@ -1,5 +1,5 @@
 {
-  "homepage": "webtechsolutions-portfolio.github.io/template1",
+  "homepage": "webtechsolutions-portfolio.github.io/template1/",
   "name": "template1",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

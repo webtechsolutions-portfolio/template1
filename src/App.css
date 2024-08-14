@@ -201,18 +201,19 @@
     flex-direction: column;
     align-items: center;
     width: 25vw;
+    max-height: 40vh;
   }
   .location__item h1 {
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .location__item h2 {
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
   .location__item h3 {
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #7dffaf;
     margin: 5px;
   }
