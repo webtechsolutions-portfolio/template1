@@ -1,35 +1,203 @@
-.team__container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  padding: 5vh 0vh;
+/* Styl dla smartfonów */
+@media (max-width: 480px) {
+  .team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    min-height: 100vh;
+  }
+  .team__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    margin: 10px;
+  }
+  .team__item h1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .team__item h2 {
+    width: 100%;
+    justify-content: left;
+    margin: 5px;
+    color: #7dffaf;
+    font-size: 1.2rem;
+  }
 }
-.team__wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
+
+/* Styl dla tabletów */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    min-height: 100vh;
+  }
+  .team__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    margin: 10px;
+  }
+  .team__item h1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .team__item h2 {
+    width: 100%;
+    justify-content: left;
+    margin: 5px;
+    color: #7dffaf;
+    font-size: 1.2rem;
+  }
 }
-.team__item {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+
+/* Styl dla laptopów i małych monitorów */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    min-height: 100vh;
+  }
+  .team__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .team__item h1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .team__item h2 {
+    width: 100%;
+    justify-content: left;
+    margin: 5px;
+    color: #7dffaf;
+    font-size: 1.2rem;
+  }
 }
-.team__item h1 {
-  width: 100%;
-  justify-content: left;
+
+/* Styl dla dużych ekranów */
+@media (min-width: 1281px) and (max-width: 1920px) {
+  .team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vh;
+    min-height: 100vh;
+  }
+  .team__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .team__item h1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .team__item h2 {
+    width: 100%;
+    justify-content: left;
+    margin: 5px;
+    color: #7dffaf;
+  }
 }
-.team__item h2 {
-  width: 100%;
-  justify-content: left;
-  margin: 5px;
-  color: #7dffaf;
+@media (min-width: 1921px) {
+  .team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    min-height: 100vh;
+  }
+  .team__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    max-height: 25vh;
+    margin: 20px;
+  }
+  .team__item h1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .team__item h2 {
+    width: 100%;
+    justify-content: left;
+    margin: 5px;
+    color: #7dffaf;
+  }
 }

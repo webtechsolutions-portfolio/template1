@@ -6,7 +6,6 @@ import Location from "./components/Location/Location";
 import Contact from "./components/Contact/Contact";
 import Team from "./components/Team/Team";
 import Socials from "./components/Socials/Socials";
-import Footer from "./components/Footer/Footer";
 
 function App() {
   const sectionRefs = useRef([]);
@@ -66,11 +65,8 @@ function App() {
       <section ref={(el) => (sectionRefs.current[3] = el)}>
         <Team />
       </section>
-      <section ref={(el) => (sectionRefs.current[4] = el)}>
+      <footer ref={(el) => (sectionRefs.current[4] = el)}>
         <Socials />
-      </section>
-      <footer>
-        <Footer />
       </footer>
     </div>
   );

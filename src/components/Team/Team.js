@@ -55,6 +55,30 @@ const Team = () => {
           <h2>Lorem Ipsum Lorem Ipsum</h2>
           <h2>+48 123 456 789</h2>
         </div>
+        <div className="team__item">
+          <IconContext.Provider value={{ color: "white", size: "15vw" }}>
+            <MdPerson />
+          </IconContext.Provider>
+          <h1>Lorem Ipsum</h1>
+          <h2>Lorem Ipsum Lorem Ipsum</h2>
+          <h2>+48 123 456 789</h2>
+        </div>
+        <div className="team__item">
+          <IconContext.Provider value={{ color: "white", size: "15vw" }}>
+            <MdPerson />
+          </IconContext.Provider>
+          <h1>Lorem Ipsum</h1>
+          <h2>Lorem Ipsum Lorem Ipsum</h2>
+          <h2>+48 123 456 789</h2>
+        </div>
+        <div className="team__item">
+          <IconContext.Provider value={{ color: "white", size: "15vw" }}>
+            <MdPerson />
+          </IconContext.Provider>
+          <h1>Lorem Ipsum</h1>
+          <h2>Lorem Ipsum Lorem Ipsum</h2>
+          <h2>+48 123 456 789</h2>
+        </div>
       </div>
     </div>
   );
