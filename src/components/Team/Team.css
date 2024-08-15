@@ -1,0 +1,35 @@
+.team__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0vh;
+}
+.team__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.team__item {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.team__item h1 {
+  width: 100%;
+  justify-content: left;
+}
+.team__item h2 {
+  width: 100%;
+  justify-content: left;
+  margin: 5px;
+  color: #7dffaf;
+}
