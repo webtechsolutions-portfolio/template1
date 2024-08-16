@@ -134,6 +134,12 @@
     width: 100%;
     justify-content: flex-end;
   }
+  .contact__container button,
+  .contact__container button * {
+    color: black !important;
+    fill: black !important; /* To ensure the icon color is black */
+    -webkit-text-fill-color: black !important; /* For Safari */
+  }
 }
 
 /* Styl dla tabletów */
