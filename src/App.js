@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header />
+        <Header sectionRefs={sectionRefs} />
       </header>
       <section ref={(el) => (sectionRefs.current[0] = el)}>
         <Mainpage />

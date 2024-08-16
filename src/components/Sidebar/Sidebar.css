@@ -1,0 +1,44 @@
+.sidebar__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000; /* Ensures the sidebar is above other content */
+}
+
+.sidebar__container.open {
+  transform: translateX(0);
+}
+
+.sidebar__container.closed {
+  transform: translateX(100%);
+}
+
+.sidebar__container button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 500;
+  color: #7dffaf;
+  font-size: 1.3rem;
+}
+
+.sidebar__container button:hover {
+  background-color: #444;
+}

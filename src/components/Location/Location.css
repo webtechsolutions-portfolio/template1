@@ -8,6 +8,7 @@
     width: 100%;
     min-height: 100vh;
     color: white;
+    padding-top: 10vh;
   }
   .location__wrapper {
     display: flex;
