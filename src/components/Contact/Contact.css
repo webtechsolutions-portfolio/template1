@@ -114,6 +114,7 @@
     font-size: 1rem;
     border: none;
     margin: 2%;
+    color: black;
   }
   .contact__container button:hover {
     display: flex;
@@ -126,6 +127,7 @@
     border-radius: 9999px;
     font-size: 1.2rem;
     border: none;
+    color: black;
   }
   .contact__button__container {
     display: flex;
@@ -250,6 +252,7 @@
     font-size: 1.2rem;
     border: none;
     margin: 2%;
+    color: black;
   }
   .contact__container button:hover {
     display: flex;
@@ -262,6 +265,7 @@
     border-radius: 9999px;
     font-size: 1.2rem;
     border: none;
+    color: black;
   }
   .contact__button__container {
     display: flex;
@@ -385,6 +389,7 @@
     font-size: 1.2rem;
     border: none;
     margin: 2%;
+    color: black;
   }
   .contact__container button:hover {
     display: flex;
@@ -397,6 +402,7 @@
     border-radius: 9999px;
     font-size: 1.2rem;
     border: none;
+    color: black;
   }
   .contact__button__container {
     display: flex;
@@ -476,19 +482,19 @@
   }
   .contact__container input {
     width: 43%;
-    height: 100px;
+    height: 60px;
     margin-bottom: 20px;
     color: #f9f9f9;
     background-color: #0d1b16;
     border: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
     padding-left: 5%;
   }
   .contact__container input::placeholder {
-    height: 100px;
+    height: 80px;
     color: #7dffaf;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
   .contact__container textarea {
@@ -496,16 +502,16 @@
     resize: none;
     background-color: #0d1b16;
     border: none;
-    height: 250px;
+    height: 150px;
     padding-left: 5%;
     padding-top: 3%;
     color: #f9f9f9;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
   .contact__container textarea::placeholder {
     color: #7dffaf;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 400;
   }
   .contact__container button {
@@ -520,6 +526,7 @@
     font-size: 1.2rem;
     border: none;
     margin: 2%;
+    color: black;
   }
   .contact__container button:hover {
     display: flex;
@@ -532,6 +539,7 @@
     border-radius: 9999px;
     font-size: 1.2rem;
     border: none;
+    color: black;
   }
   .contact__button__container {
     display: flex;
@@ -653,6 +661,7 @@
     font-size: 1.2rem;
     border: none;
     margin: 2%;
+    color: black;
   }
   .contact__container button:hover {
     display: flex;
@@ -665,6 +674,7 @@
     border-radius: 9999px;
     font-size: 1.2rem;
     border: none;
+    color: black;
   }
   .contact__button__container {
     display: flex;

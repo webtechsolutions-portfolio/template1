@@ -8,7 +8,6 @@
     width: 100%;
     min-height: 100vh;
     color: white;
-    padding-top: 12vh;
   }
   .location__wrapper {
     display: flex;
@@ -107,15 +106,15 @@
   }
   .location__item h1 {
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .location__item h2 {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .location__item h3 {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #7dffaf;
     margin: 5px;
   }

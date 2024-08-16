@@ -154,12 +154,14 @@
   .team__item h1 {
     width: 100%;
     justify-content: left;
+    font-size: 1.3rem;
   }
   .team__item h2 {
     width: 100%;
     justify-content: left;
     margin: 5px;
     color: #7dffaf;
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 1921px) {
